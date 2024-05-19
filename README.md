@@ -20,12 +20,3 @@ Con i dati aggregati, ho poi proceduto a creare una tabella denormalizzata dove 
 Join Completo dei Dati: Ho usato varie istruzioni SQL JOIN per combinare tutte le informazioni raccolte nelle query precedenti in una singola vista. Questo includeva unire dati da transazioni, conti, e clienti basandosi sugli id_cliente e id_conto.
 Calcolo degli Indicatori Finali: Dopo aver aggregato tutte le informazioni necessarie, ho calcolato gli indicatori finali direttamente nella query finale. Questo includeva indicatori complessi come l'importo transato in entrata per tipologia di conto e l'importo transato in uscita per tipologia di conto.
 
-4. Ottimizzazione e Testing
-
-Ho eseguito diverse iterazioni di testing e ottimizzazione delle query per assicurarmi che fossero efficienti e corrette. Ho controllato la precisione dei dati confrontando campioni aggregati con i dati di base e assicurandomi che non ci fossero errori logici nelle aggregazioni o nei join.
-
-5. Documentazione
-
-Infine, ho documentato tutte le query e i processi utilizzati nel progetto per garantire che l'analisi fosse replicabile e comprensibile per altri analisti e per i futuri riferimenti.
-
-Attraverso questi passaggi ho potuto fornire una tabella denormalizzata completa che servirà come base per ulteriori analisi e come input per modelli di machine learning supervisionato
